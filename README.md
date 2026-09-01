@@ -1,7 +1,7 @@
 # Cloud Computing Activities
 
-**Name:** Miguel B. Saribong
-**Course and Section:** BSIT – 4th Year, Block M
+**Name:** Miguel B. Saribong  
+**Course and Section:** BSIT – 4th Year, Block L
 
 ## About This Repository
 
