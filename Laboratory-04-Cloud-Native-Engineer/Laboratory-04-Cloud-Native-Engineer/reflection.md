@@ -1,1 +1,9 @@
+Completing this activity helped me understand the difference between using a traditional Virtual Machine and using a Docker container. A Virtual Machine requires a complete guest operating system, so starting and preparing one can take more time and system resources. In comparison, a Docker container can start much faster because it shares the host operating system. In this activity, the Nginx container could be deployed using only a few Docker commands.
 
+The port mapping `-p 8080:80` is necessary because the Nginx web server is listening on port 80 inside the container, while I accessed it through port 8080 on the host environment. The mapping connects the host's port 8080 to the container's port 80. This allowed me to use `curl http://localhost:8080` to send a request to the Nginx server running inside the container.
+
+When the `docker rm` command is used, the specified stopped container is removed from Docker. This means the container itself is deleted and can no longer be managed as an existing container. The image used to create the container is separate, so removing the container does not automatically remove the Nginx image.
+
+Containerization can also change how software developers and IT operations teams work together. Developers can package applications and their dependencies into containers, while operations teams can deploy those containers consistently in different environments. This supports a more efficient DevOps workflow because the application environment can be reproduced more easily.
+
+My GitHub portfolio is also evolving as I complete more cloud computing activities. Instead of only containing previous laboratory work, it is becoming a collection of technical demonstrations and documentation. This activity added Docker, container management, Nginx deployment, and technical documentation to my portfolio.
